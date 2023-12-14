@@ -20,7 +20,7 @@ html {
 }
 
 p {
-    color: rgb(85,85,85);
+    color: rgb(85, 85, 85);
 }
 
 /* TRANSITION */
@@ -54,10 +54,10 @@ a {
 }
 
 a:hover {
-    color: grey;
+    color:#0F6EAD;
     text-decoration: underline;
     text-underline-offset: 1rem;
-    text-decoration-color: rgb(181,181,181);
+    text-decoration-color: #0F6EAD;;
 }
 
 .logo {
@@ -241,11 +241,13 @@ section {
 
 .section__text__p1 {
     text-align: center;
+    color:#0F6EAD;
 }
 
 .section__text__p2 {
     font-size: 1.75rem;
     margin-bottom: 1rem;
+    color:#0F6EAD;
 }
 
 .title {
@@ -291,7 +293,7 @@ section {
 }
 
 .btn-color-1, .btn-color-2 {
-    border: rgb(53,53,53) 0.1rem solid;
+    border: rgb(0, 0, 0) 0.1rem solid;
 }
 
 .btn-color-1:hover, .btn-color-2:hover {
@@ -304,15 +306,17 @@ section {
 }
 
 .btn-color-1:hover {
-    background: rgb(0,0,0);
+    border: rgb(255,255,255) 0.1rem solid;
+    background-color:#0F6EAD;
 }
 
 .btn-color-2 {
-    background-color: none;
+    background-color: white;
 }
 
 .btn-color-2:hover {
-    border: rgb(255255,255) 0.1rem solid;
+    border: rgb(255,255,255) 0.1rem solid;
+    background-color: #0F6EAD;
 }
 
 .btn-container {
