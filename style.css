@@ -265,7 +265,7 @@ section {
 #profile img.arrow {
         position: absolute;
         right: 5rem;
-        bottom: 5.6rem;
+        bottom: 4.6rem;
     }
 
 
@@ -494,6 +494,6 @@ footer p {
 footer img.arrow {
     position: absolute;
     right: 4rem;
-    bottom: 5.5rem;
+    bottom: 4.8rem;
     transform: rotate(180deg);
 }
