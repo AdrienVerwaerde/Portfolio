@@ -361,6 +361,10 @@ section {
     text-align: center;
 }
 
+.details-container h3 {
+    color: #0F6EAD;
+}
+
 .section-container {
     gap: 4rem;
     height: 80%;
@@ -374,7 +378,7 @@ section {
 }
 
 .experience-sub-title {
-    color: rgb(85,85,85);
+    color: rgb(53,53,53);
     font-weight: 600;
     font-size: 1.75rem;
     margin-bottom: 2rem;
