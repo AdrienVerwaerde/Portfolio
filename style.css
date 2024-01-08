@@ -330,6 +330,7 @@ section {
 }
 
 .about-containers {
+
     gap: 2rem;
     margin-bottom: 2rem;
     margin-top: 2rem;
@@ -375,6 +376,7 @@ section {
 
 #experience {
     position: relative;
+
 }
 
 .experience-sub-title {
@@ -415,10 +417,13 @@ article .icon {
 
 #projects {
     position: relative;
+    display: flex;
+    align-items: center;
 }
 
 .color-container {
     position: relative;
+
 }
 
 .project-img {
