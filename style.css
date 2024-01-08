@@ -391,6 +391,7 @@ section {
 }
 
 .article-container {
+    position: relative;
     display: flex;
     text-align: initial;
     flex-wrap: wrap;
@@ -417,20 +418,78 @@ article .icon {
 }
 
 .color-container {
-    border-color: rgb(163,163,163);
-    background: rgb(250,250,250);
+    position: relative;
 }
 
 .project-img {
     border-radius: 2rem;
-    width: 90%;
-    height: 90%;
+    transition: opacity 0.5s ease;
+    width: 100%;
+    height: 100%;
+    aspect-ratio: 1/1;
 }
+
+
+.img-container-1:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('./assets/moviepediaMobile.png');
+    background-size: cover;
+    border-radius: 2rem;
+    opacity: 0;
+    transition: opacity 0.5s ease;
+}
+
+.img-container-2:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('./assets/moviepediaMobile.png');
+    background-size: cover;
+    border-radius: 2rem;
+    opacity: 0;
+    transition: opacity 0.5s ease;
+}
+
+.img-container-3:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('./assets/moviepediaMobile.png');
+    background-size: cover;
+    border-radius: 2rem;
+    opacity: 0;
+    transition: opacity 0.5s ease;
+}
+
+.img-container-1:hover .project-img,
+.img-container-2:hover .project-img,
+.img-container-3:hover .project-img {
+    opacity: 0;
+}
+
+.img-container-1:hover:before,
+.img-container-2:hover:before,
+.img-container-3:hover:before {
+    opacity: 1;
+}
+
 
 .project-title {
     margin: 1rem;
-    color: black;
+    color: #0F6EAD;
 }
+
 
 .project-btn {
     color: black;

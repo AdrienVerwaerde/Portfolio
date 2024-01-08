@@ -35,3 +35,8 @@ function navigateToSection(sectionId) {
     window.location.href = targetPage;
 }
 
+
+
+
+
+
