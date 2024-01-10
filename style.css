@@ -216,6 +216,11 @@ section {
     display: flex;
 }
 
+.hidden {
+    opacity: 0;
+    transform: translateY(20px) scale(0.9);
+    transition: opacity 1s, transform 1s;
+}
 
 .show {
     opacity: 1;
@@ -223,11 +228,7 @@ section {
     transition: opacity 1s, transform 1s;
 }
 
-.hidden {
-    opacity: 0;
-    transform: translateY(20px) scale(0.9);
-    transition: opacity 1s, transform 1s;
-}
+
 
 
 
