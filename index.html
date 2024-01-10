@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="mediaqueries.css" />
 </head>
 
-<body>
+<body id="body">
     <div class="hidden" id="language-toggle">
         <button id="flag-en" onclick="toggleLanguage('en')"><img src="https://i.goopics.net/rtz1dd.png"
                 alt="English Flag"></button>
@@ -65,7 +65,7 @@
                     onclick="window.open('https://github.com/AdrienVerwaerde')" />
             </div>
         </div>
-        <img src="./assets/arrow.png" alt="Arrow icon" class="icon arrow" onclick="navigateToSection('#about')" />
+        
     </section>
     <section class="hidden" id="about">
         <div class="section-container">
@@ -102,7 +102,7 @@
                 </div>
             </div>
         </div>
-        <img src="./assets/arrow.png" alt="Arrow icon" class="icon arrow" onclick="navigateToSection('#experience')" />
+        
     </section>
     <section class="hidden" id="experience">
         <div class="section-container">
@@ -179,7 +179,7 @@
                 </div>
             </div>
         </div>
-        <img src="./assets/arrow.png" alt="Arrow icon" class="icon arrow" onclick="navigateToSection('#projects')" />
+        
     </section>
     <section class="hidden" id="projects">
         <div class="section-container">
@@ -242,7 +242,7 @@
         </div>
         </div>
     </div>
-    <img src=" ./assets/arrow.png" alt="Arrow icon" class="icon arrow" onclick="navigateToSection('#contact')" />
+    
     </section>
     <section class="hidden" id="contact">
         <p class="section__text__p1">Restons Connectés</p>
@@ -272,7 +272,7 @@
         </nav>
         <p>Copyright &#169; 2023 Adrien Verwaerde. All Rights Reserved.</p>
         <img src="./assets/arrow.png" alt="Arrow icon" class="icon arrow"
-            onclick="navigateToSection('#language-toggle')" />
+            onclick="navigateToSection('#body')" />
     </footer>
     <script src="script.js"></script>
     <script src="scroll.js"></script>
