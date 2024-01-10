@@ -18,6 +18,7 @@
     }
     #hamburger-nav {
         display: flex;
+
     }
 
     #language-toggle {
@@ -31,6 +32,7 @@
     }
     #profile, .section-container {
         display: block;
+
     }
     .arrow {
         display: none;
@@ -70,6 +72,7 @@
     }
     #hamburger-nav {
         display: flex;
+
     }
     article {
         font-size: 1rem;
@@ -97,6 +100,7 @@
         flex-direction: column;
         gap: 0.5rem;
         text-align: center;
+        z-index: 1001;
     }
     .section__pic-container {
         width: auto;

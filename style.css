@@ -123,7 +123,9 @@ a:hover {
 
 #hamburger-nav {
     display: none;
+    position: relative;
     z-index: 1000;
+
 }
 
 .hamburger-menu {
@@ -155,8 +157,16 @@ a:hover {
     width: fit-content;
     max-height: 0;
     overflow: hidden;
-    transition: all 0.3 ease-in-out;
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
     z-index: 1001;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+
+}
+
+.menu-links.open {
+    max-height: auto;
+    opacity: 1;
 }
 
 .menu-links a {
@@ -214,6 +224,8 @@ section {
 
 .section-container {
     display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .hidden {

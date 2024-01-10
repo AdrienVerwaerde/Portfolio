@@ -10,14 +10,14 @@
     <link rel="stylesheet" href="mediaqueries.css" />
 </head>
 
-<body>
-    <div id="language-toggle">
+<body id="body">
+    <div class="hidden" id="language-toggle">
         <button id="flag-en" onclick="toggleLanguage('en')"><img src="https://i.goopics.net/rtz1dd.png"
                 alt="English Flag"></button>
         <button id="flag-fr" onclick="toggleLanguage('fr')"><img src="https://i.goopics.net/1bqoqe.png"
                 alt="French Flag"></button>
     </div>
-    <nav id="desktop-nav">
+    <nav class="hidden" id="desktop-nav">
         <div class="logo">WELCOME !</div>
         <div>
             <ul class="nav-links">
@@ -29,8 +29,8 @@
             </ul>
         </div>
     </nav>
-    <nav id="hamburger-nav">
-        <div class="logo">My Portfolio</div>
+    <nav class="hidden" id="hamburger-nav">
+        <div class="logo">WELCOME !</div>
         <div class="hamburger-menu">
             <div class="hamburger-icon" onclick="toggleMenu()">
                 <span></span>
@@ -45,7 +45,7 @@
             </div>
         </div>
     </nav>
-    <section id="profile">
+    <section class="hidden" id="profile">
         <div class="section__pic-container">
             <img src="./assets/profile-pic.png" alt="Profile picture of Adrien Verwaerde">
         </div>
@@ -65,9 +65,9 @@
                     onclick="window.open('https://github.com/AdrienVerwaerde')" />
             </div>
         </div>
-        <img src="./assets/arrow.png" alt="Arrow icon" class="icon arrow" onclick="navigateToSection('#about')" />
+        
     </section>
-    <section id="about">
+    <section class="hidden" id="about">
         <div class="section-container">
             <div class="about-details-container">
                 <p class="section__text__p1">Get To Know More</p>
@@ -100,9 +100,9 @@
                 </div>
             </div>
         </div>
-        <img src="./assets/arrow.png" alt="Arrow icon" class="icon arrow" onclick="navigateToSection('#experience')" />
+        
     </section>
-    <section id="experience">
+    <section class="hidden" id="experience">
         <div class="section-container">
             <div class="experience-details-container">
                 <p class="section__text__p1">Explore My</p>
@@ -177,9 +177,9 @@
                 </div>
             </div>
         </div>
-        <img src="./assets/arrow.png" alt="Arrow icon" class="icon arrow" onclick="navigateToSection('#projects')" />
+        
     </section>
-    <section id="projects">
+    <section class="hidden" id="projects">
         <div class="section-container">
             <div class="experience-details-container">
                 <p class="section__text__p1">Browse My Recent</p>
@@ -203,7 +203,7 @@
                             </button>
                         </div>
                     </div>
-                    <!-- <div class=" details-container color-container">
+                    <div class=" details-container color-container">
                         <div class="article-container">
                             <div class="img-container-2"><img src="./assets/moviepedia.jpg" alt="Project 1 Moviepedia"
                                     class="project-img" /></div>
@@ -237,14 +237,14 @@
                                         onclick=location.href='https://github.com/AdrienVerwaerde'">
                         Live Demo
                     </button>
-                </div> -->
+                </div>
             </div>
         </div>
         </div>
     </div>
-        <img src=" ./assets/arrow.png" alt="Arrow icon" class="icon arrow" onclick="navigateToSection('#contact')" />
+        
     </section>
-    <section id="contact">
+    <section class="hidden" id="contact">
         <p class="section__text__p1">Get In Touch</p>
         <h1 class="title">Contact Me</h1>
         <div class="contact-info-upper-container">
@@ -260,7 +260,7 @@
     </section>
 
     <footer>
-        <nav>
+        <nav class="hidden">
             <div class="links-container">
                 <ul class="nav-links">
                     <li><a href="#about">About</a></li>
@@ -272,7 +272,7 @@
         </nav>
         <p>Copyright &#169; 2023 Adrien Verwaerde. All Rights Reserved.</p>
         <img src="./assets/arrow.png" alt="Arrow icon" class="icon arrow"
-            onclick="navigateToSection('#language-toggle')" />
+            onclick="navigateToSection('#body')" />
     </footer>
     <script src="script.js"></script>
     <script src="scroll.js"></script>
