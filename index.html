@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adrien Verwaerde - Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mediaqueries.css" />
+</head>
+
+<body id="body">
+    <div class="hidden" id="language-toggle">
+        <button id="flag-en" onclick="toggleLanguage('en')"><img src="https://i.goopics.net/rtz1dd.png"
+                alt="English Flag"></button>
+        <button id="flag-fr" onclick="toggleLanguage('fr')"><img src="https://i.goopics.net/1bqoqe.png"
+                alt="French Flag"></button>
+    </div>
+    <nav class="hidden" id="desktop-nav">
+        <div class="logo">BIENVENUE !</div>
+        <div>
+            <ul class="nav-links">
+                <li><a href="#about">À Propos</a></li>
+                <li><a href="#experience">Compétences</a></li>
+                <li><a href="#projects">Projets</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li></li>
+            </ul>
+        </div>
+    </nav>
+    <nav class="hidden" id="hamburger-nav">
+        <div class="logo">BIENVENUE !</div>
+        <div class="hamburger-menu">
+            <div class="hamburger-icon" onclick="toggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <div class="menu-links">
+                <li><a href="#about" onclick="toggleMenu()">À Propos</a></li>
+                <li><a href="#experience" onclick="toggleMenu()">Compétences</a></li>
+                <li><a href="#projects" onclick="toggleMenu()">Projets</a></li>
+                <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+            </div>
+        </div>
+    </nav>
+    <section class="hidden" id="profile">
+        <div class="section__pic-container">
+            <img src="./assets/profile-pic.png" alt="Profile picture of Adrien Verwaerde">
+        </div>
+        <div class="section__text">
+            <p class="section__text__p1">Bonjour, je suis</p>
+            <h1 class="title">Adrien Verwaerde</h1>
+            <p class="section__text__p2">Développeur Frontend</p>
+            <div class="btn-container">
+                <button class="btn btn-color-2" onclick="window.open('./assets/blue professional modern CV resume-4.pdf')">Télécharger mon
+                    CV</button>
+                <button class="btn btn-color-1" onclick="location.href='./#contact'">Me Contacter</button>
+            </div>
+            <div id="socials-container">
+                <img src="./assets/linkedin.png" alt="My LinkedIn profile" class="icon"
+                    onclick="window.open('https://linkedin.com/in/adrien-verwaerde-018ba4195/')" />
+                <img src="./assets/github.png" alt="My GitHub profile" class="icon"
+                    onclick="window.open('https://github.com/AdrienVerwaerde')" />
+            </div>
+        </div>
+        
+    </section>
+    <section class="hidden" id="about">
+        <div class="section-container">
+            <div class="about-details-container">
+                <p class="section__text__p1">En Savoir Plus</p>
+                <h1 class="title">À Propos De Moi</h1>
+                <div class="about-containers">
+                    <div class="details-container">
+                        <img src="./assets/experience.png" alt="Experience icon" class="icon" />
+                        <h3>Expérience</h3>
+                        <p>Développement Frontend et Backend<br>5 mois</p>
+                    </div>
+                    <div class="details-container">
+                        <img src="./assets/education.png" alt="Education icon" class="icon" />
+                        <h3>Formation</h3>
+                        <p>Titre Professionnel RNCP Niv5 - Développeur Web et Web Mobile <br>Licence - Gestion
+                            Commerciale</p>
+                    </div>
+                </div>
+                <div class="text-container">
+                    <p>Bercé par l'informatique et les jeux vidéo dès l'enfance, c'est d'abord dans le
+                        commerce de détail que j'ai débuté ma vie professionnelle, puis plus récemment, dans le domaine
+                        des
+                        médias numériques. Être quotidiennement au contact du monde du digital a éveillé ma curiosité
+                        envers le développement et le code, me motivant à découvrir les possibilités infinies offertes
+                        par la
+                        programmation. J'ai donc décidé de changer de voie et d'intégrer pleinement cet univers
+                        passionnant et aux multiples facettes.<br><br> J'ai suivi la formation en ligne de Développeur
+                        Web et Web Mobile proposée par l'école O'Clock et ai obtenu un Titre Professionnel de niveau
+                        BAC+2. Spécialisé dans le développement Frontend, je reste à l'aise en Backend et suis en quète
+                        de projets dynamiques et ambitieux pour élargir mes connaissances et développer de nouvelles
+                        compétences !</p>
+                    </p>
+                </div>
+            </div>
+        </div>
+        
+    </section>
+    <section class="hidden" id="experience">
+        <div class="section-container">
+            <div class="experience-details-container">
+                <p class="section__text__p1">Consultez Mes</p>
+                <h1 class="title">Compétences</h1>
+                <div class="about-containers">
+                    <div class="details-container">
+                        <h2 class="experience-sub-title">Développement Frontend</h2>
+                        <div class="article-container">
+                            <article>
+                                <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+                                <div>
+                                    <h3>HTML</h3>
+                                    <p>Avancé</p>
+                                </div>
+                            </article>
+                            <article>
+                                <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+                                <div>
+                                    <h3>CSS</h3>
+                                    <p>Avancé</p>
+                                </div>
+                            </article>
+                            <article>
+                                <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+                                <div>
+                                    <h3>JavaScript</h3>
+                                    <p>Avancé</p>
+                                </div>
+                            </article>
+                            <article>
+                                <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+                                <div>
+                                    <h3>React</h3>
+                                    <p>Intermédiaire</p>
+                                </div>
+                            </article>
+                        </div>
+                    </div>
+                    <div class="details-container">
+                        <h2 class="experience-sub-title">Développement Backend</h2>
+                        <div class="article-container">
+                            <article>
+                                <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+                                <div>
+                                    <h3>PHP</h3>
+                                    <p>Avancé</p>
+                                </div>
+                            </article>
+                            <article>
+                                <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+                                <div>
+                                    <h3>SQL</h3>
+                                    <p>Intermédiaire</p>
+                                </div>
+                            </article>
+                            <article>
+                                <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+                                <div>
+                                    <h3>Symfony</h3>
+                                    <p>Bases</p>
+                                </div>
+                            </article>
+                            <article>
+                                <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+                                <div>
+                                    <h3>Git</h3>
+                                    <p>Avancé</p>
+                                </div>
+                            </article>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+    </section>
+    <section class="hidden" id="projects">
+        <div class="section-container">
+            <div class="experience-details-container">
+                <p class="section__text__p1">Découvrez Mes</p>
+                <h1 class="title">Projets Récents</h1>
+                <p class="section__text__p1">(survolez l'image pour afficher sa variante)</p>
+                <div class="about-containers">
+                    <div class="details-container color-container">
+                        <div class="article-container">
+                            <div class="img-container-1"><img src="./assets/moviepedia.jpg" alt="Project 1 Moviepedia" class="project-img" /></div>
+                        </div>
+                        <h2 class="experience-sub-title project-title">Moviepedia</h2>
+                        <p>Application responsive type "encyclopédie" créée avec JavaScript et React et utilisant l'API du site IMDb pour afficher les films et leurs détails</p><br>
+                        <div class="btn-container">
+                            <button class="btn btn-color-2 project-btn"
+                                onclick="window.open('https://github.com/AdrienVerwaerde/moviepedia')">
+                                GitHub
+                            </button>
+                            <button class=" btn btn-color-2 project-btn"
+                                onclick="window.open('https://adrienverwaerde.github.io/moviepedia')">
+                                Démo
+                            </button>
+                        </div>
+                    </div>
+                    <div class=" details-container color-container">
+                        <div class="article-container">
+                            <div class="img-container-2">
+                                <img src="./assets/poudlock.jpg" alt="Project 2 Poudlock" class="project-img" />
+                            </div>
+                        </div>
+                        <h2 class="experience-sub-title project-title">Poudlock</h2>
+                        <p>Une application humoristique utilisant HTML et JavaScript pour décider d'une maison issue de l'univers d'Harry Potter en fonction du prénom entré</p><br>
+                        <div class="btn-container">
+                            <button class="btn btn-color-2 project-btn"
+                                onclick="window.open('https://github.com/AdrienVerwaerde/Poudlock')">
+                                GitHub
+                            </button>
+                            <button class=" btn btn-color-2 project-btn"
+                                onclick="window.open('https://adrienverwaerde.github.io/Poudlock')">
+                                Démo
+                            </button>
+                        </div>
+                    </div>
+                    <div class=" details-container color-container">
+                        <div class="article-container">
+                            <div class="img-container-3"><img src="./assets/cbdlisse-desktop.png" alt="Project 3 Cbdlisse.fr" class="project-img" /></div>
+                        </div>
+                        <h2 class="experience-sub-title project-title">CBDlisse.fr</h2>
+                        <p>Site de vente en ligne de CBD et matériel de vape créé avec Shopify. Dans le cadre d'un stage, j'ai remanié quasi-entièrement son interface visuelle et optimisé l'UX grâce à Liquid, HTML, CSS et JavaScript</p><br>
+                        <div class="btn-container">
+                            <!-- <button class="btn btn-color-2 project-btn"
+                            onclick="window.open('https://github.com/AdrienVerwaerde/blablapp')">
+                        GitHub
+                    </button> -->
+                    <button class=" btn btn-color-2 project-btn"
+                    onclick="window.open('https://cbdlisse.fr')">
+                        Démo
+                    </button>
+                </div>
+            </div>
+        </div>
+        </div>
+    </div>
+    
+    </section>
+    <section class="hidden" id="contact">
+        <p class="section__text__p1">Restons Connectés</p>
+        <h1 class="title">Me Contacter</h1>
+        <div class="contact-info-upper-container">
+            <div class="contact-info-container">
+                <img src="./assets/email.png" alt="Email icon" class="icon contact-icon email-icon" />
+                <p><a href="mailto:verwaerdeadrien@gmail.com">verwaerdeadrien@gmail.com</a></p>
+            </div>
+            <div class="contact-info-container">
+                <img src="./assets/linkedin.png" alt="LinkedIn icon" class="icon contact-icon" />
+                <p><a href="https://linkedin.com/in/adrien-verwaerde-018ba4195/" target="_blank">LinkedIn</a></p>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <nav class="hidden">
+            <div class="links-container">
+                <ul class="nav-links">
+                    <li><a href="#about">À Propos</a></li>
+                    <li><a href="#experience">Compétences</a></li>
+                    <li><a href="#projects">Projets</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+        <p>Copyright &#169; 2023 Adrien Verwaerde. All Rights Reserved.</p>
+        <img src="./assets/arrow.png" alt="Arrow icon" class="icon arrow"
+            onclick="scrollToTop()" />
+    </footer>
+    <script src="script.js"></script>
+    <script src="scroll.js"></script>
+    <script>
+        function scrollToTop() {
+            window.scrollTo({
+                top: 0,
+                behavior: 'smooth'
+            });
+        }
+    </script>
+</body>
+
+</html>
