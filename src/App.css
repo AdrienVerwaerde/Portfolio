@@ -38,8 +38,9 @@ nav,
 }
 
 nav {
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
+  padding: 0 4.36rem;
   height: 17vh;
 }
 
@@ -637,6 +638,10 @@ footer img.arrow {
 
 
 @media screen and (max-width: 1200px) {
+  nav {
+    padding: 0;
+  }
+
   #desktop-nav {
     display: none;
   }
@@ -709,7 +714,6 @@ footer img.arrow {
 
   #hamburger-nav {
     display: flex;
-
   }
 
   article {
