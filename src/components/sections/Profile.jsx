@@ -9,7 +9,7 @@ const Profile = () => {
   const [ref, isVisible] = useIntersectionObserver();
 
   const handleDownloadCV = () => {
-    window.open("./assets/CV-AV.pdf");
+    window.open("/CV-AV.pdf");
   };
 
   const handleContact = () => {
@@ -27,10 +27,7 @@ const Profile = () => {
       id="profile"
     >
       <div className="section__pic-container">
-        <img
-          src="./assets/profile-pic.png"
-          alt="Profile picture of Adrien Verwaerde"
-        />
+        <img src="/profile-pic.png" alt="Profile picture of Adrien Verwaerde" />
       </div>
       <div className="section__text">
         <p className="section__text__p1">{t.profile.greeting}</p>
@@ -46,7 +43,7 @@ const Profile = () => {
         </div>
         <div id="socials-container">
           <img
-            src="./assets/linkedin.png"
+            src="/linkedin.png"
             alt="My LinkedIn profile"
             className="icon"
             onClick={() =>
@@ -56,7 +53,7 @@ const Profile = () => {
             }
           />
           <img
-            src="./assets/github.png"
+            src="/github.png"
             alt="My GitHub profile"
             className="icon"
             onClick={() =>

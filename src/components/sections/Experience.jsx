@@ -25,11 +25,7 @@ const Experience = () => {
 
   const SkillArticle = ({ skill }) => (
     <article>
-      <img
-        src="../../assets/experience.png"
-        alt="Experience icon"
-        className="icon"
-      />
+      <img src=".././experience.png" alt="Experience icon" className="icon" />
       <div>
         <h3>{skill.name}</h3>
         <p>{skill.level}</p>

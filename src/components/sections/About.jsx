@@ -21,7 +21,7 @@ const About = () => {
           <div className="about-containers">
             <div className="details-container">
               <img
-                src="./assets/experience.png"
+                src="/experience.png"
                 alt="Experience icon"
                 className="icon"
               />
@@ -31,11 +31,7 @@ const About = () => {
               ></p>
             </div>
             <div className="details-container">
-              <img
-                src="./assets/education.png"
-                alt="Education icon"
-                className="icon"
-              />
+              <img src="/education.png" alt="Education icon" className="icon" />
               <h3>{t.about.education}</h3>
               <p
                 dangerouslySetInnerHTML={{ __html: t.about.educationDesc }}
