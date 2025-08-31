@@ -12,11 +12,12 @@ const Experience = () => {
     { name: "HTML", level: t.experience.advanced },
     { name: "CSS", level: t.experience.advanced },
     { name: "JavaScript", level: t.experience.advanced },
-    { name: "React", level: t.experience.intermediate },
-    { name: "NextJS", level: t.experience.intermediate },
+    { name: "React", level: t.experience.advanced },
+    { name: "NextJS", level: t.experience.advanced },
   ];
 
   const backendSkills = [
+    { name: "Node.js", level: t.experience.advanced },
     { name: "PHP", level: t.experience.advanced },
     { name: "SQL", level: t.experience.intermediate },
     { name: "Symfony", level: t.experience.basic },

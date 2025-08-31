@@ -29,12 +29,12 @@ const Projects = () => {
     },
     {
       id: 3,
-      title: t.projects.cbdlisse.title,
-      description: t.projects.cbdlisse.description,
-      image: "/cbdlisse-desktop.png",
+      title: t.projects.dabeatz.title,
+      description: t.projects.dabeatz.description,
+      image: "/dabeatz-desktop.png",
       imageClass: "img-container-3",
-      github: null,
-      demo: null,
+      github: "https://github.com/AdrienVerwaerde/dabeatz",
+      demo: "https://dabeatz.vercel.app/",
     },
   ];
 
@@ -50,25 +50,27 @@ const Projects = () => {
         </div>
       </div>
       <h2 className="experience-sub-title project-title">{project.title}</h2>
-      <p>{project.description}</p>
-      <br />
-      <div className="btn-container">
-        {project.github && (
-          <button
-            className="btn btn-color-2 project-btn"
-            onClick={() => window.open(project.github)}
-          >
-            GitHub
-          </button>
-        )}
-        {project.demo && (
-          <button
-            className="btn btn-color-2 project-btn"
-            onClick={() => window.open(project.demo)}
-          >
-            {t.projects.demo}
-          </button>
-        )}
+      <div className="project-details">
+        <p>{project.description}</p>
+        <br />
+        <div className="btn-container">
+          {project.github && (
+            <button
+              className="btn btn-color-2 project-btn"
+              onClick={() => window.open(project.github)}
+            >
+              GitHub
+            </button>
+          )}
+          {project.demo && (
+            <button
+              className="btn btn-color-2 project-btn"
+              onClick={() => window.open(project.demo)}
+            >
+              {t.projects.demo}
+            </button>
+          )}
+        </div>
       </div>
     </div>
   );

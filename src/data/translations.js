@@ -22,12 +22,12 @@ export const translations = {
       sectionTitle: "En Savoir Plus",
       title: "À Propos De Moi",
       experience: "Expérience",
-      experienceDesc: "Développement Frontend et Backend<br>9 mois",
+      experienceDesc: "Développement Frontend et Backend<br><br>2 ans",
       education: "Formation",
       educationDesc:
-        "Titre Professionnel RNCP Niv5 - Développeur Web et Web Mobile <br>Licence - Gestion Commerciale",
+        "Master (Titre Professionnel RNCP Niv7) - Manager de Projet Web et Digital (en cours) <br><br>Bachelor (Titre Professionnel RNCP Niv6) - Concepteur Développeur d'Applications (obtenu en 2025)",
       description:
-        "Bercé par l'informatique et les jeux vidéo dès l'enfance, c'est d'abord dans le commerce de détail que j'ai débuté ma vie professionnelle, puis plus récemment, dans le domaine des médias numériques. Être quotidiennement au contact du monde du digital a éveillé ma curiosité envers le développement et le code, me motivant à découvrir les possibilités infinies offertes par la programmation. J'ai donc décidé de changer de voie et d'intégrer pleinement cet univers passionnant et aux multiples facettes.<br><br> J'ai suivi la formation en ligne de Développeur Web et Web Mobile proposée par l'école O'Clock et ai obtenu un Titre Professionnel de niveau BAC+2. Spécialisé dans le développement Frontend, je reste à l'aise en Backend et suis en quête de projets dynamiques et ambitieux pour élargir mes connaissances et développer de nouvelles compétences !",
+        `Bercé par l'informatique et les jeux vidéo dès l'enfance, c'est d'abord dans le commerce de détail que j'ai débuté ma vie professionnelle, puis plus récemment, dans le domaine des médias numériques. Être quotidiennement au contact du monde du digital a éveillé ma curiosité envers le développement et le code, me motivant à découvrir les possibilités infinies offertes par la programmation. J'ai donc décidé de changer de voie et d'intégrer pleinement cet univers passionnant et aux multiples facettes.<br><br> J'ai suivi la formation en ligne de Développeur Web et Web Mobile proposée par l'école O'Clock et ai obtenu un <b>Titre Professionnel de niveau BAC+2.</b> J'ai ensuite intégré MyDigitalSchool Paris et obtenu un <b>Bachelor de Concepteur Développeur d'Applications (Titre Pro niv6)</b> en alternance. Je continue actuellement sur ma lancée en suivant une formation en <b>Master Manager de Projet Web et Digital</b>, toujours chez MyDigitalSchool et en alternance avec la même entreprise pour qui j'ai travaillé pendant ma précédente formation, <a class="link_adjuvoo" href="https://adjuvoo.com" target="_blank" rel="noopener noreferrer">Adjuvoo</a>.<br><br>Spécialisé dans le développement Frontend, je reste à l'aise en Backend et suis en quête de projets dynamiques et ambitieux pour élargir mes connaissances et développer de nouvelles compétences !`
     },
     experience: {
       sectionTitle: "Consultez Mes",
@@ -57,6 +57,11 @@ export const translations = {
         description:
           "Site de vente en ligne de CBD et matériel de vape créé avec Shopify. Dans le cadre d'un stage, j'ai remanié quasi-entièrement son interface visuelle et optimisé l'UX grâce à Liquid, HTML, CSS et JavaScript",
       },
+      dabeatz: {
+        title: "Dabeatz",
+        description:
+          "Site ecommerce factice réalisé avec Next.js, TypeScript et Tailwind",
+      },
       demo: "Démo",
     },
   },
@@ -72,8 +77,8 @@ export const translations = {
       greeting: "Hello, I'm",
       name: "Adrien Verwaerde",
       title: "Frontend Developer",
-      downloadCV: "Download CV",
-      contactMe: "Contact Info",
+      downloadCV: "Download Resume",
+      contactMe: "Contact Me",
     },
     contact: {
       sectionTitle: "Get In Touch",
@@ -83,12 +88,12 @@ export const translations = {
       sectionTitle: "Get To Know More",
       title: "About Me",
       experience: "Experience",
-      experienceDesc: "Frontend and Backend Development<br>9 months",
+      experienceDesc: "Frontend and Backend Development<br>2 years",
       education: "Education",
       educationDesc:
-        "Professional Title RNCP Level 5 - Web and Mobile Web Developer <br>Bachelor's - Commercial Management",
+        "Master's Degree - Web and Digital Projects Manager (in progress) <br><br>Bachelor's Degree - Apps Designer and Developer (graduated in 2025)",
       description:
-        "Raised with computers and video games from childhood, I first started my professional life in retail, then more recently, in digital media. Being in daily contact with the digital world awakened my curiosity towards development and code, motivating me to discover the infinite possibilities offered by programming. I therefore decided to change path and be a part of this fascinating and limitless universe.<br><br> I took O'Clock School's online courses of Web and Mobile Web Development and have obtained a Professional Designation of BTEC Higher National Diploma value. Specialized in Frontend development, I however feel comfortable with Backend and am looking for exciting and ambitious projects to enhance my knowledge and acquire new skills !",
+        `Raised with computers and video games from childhood, I first started my professional life in retail, then more recently, in digital media. Being in daily contact with the digital world awakened my curiosity towards development and code, motivating me to discover the infinite possibilities offered by programming. I therefore decided to change path and be a part of this fascinating and limitless universe.<br><br> I took O'Clock School's online courses of Web and Mobile Web Development and have obtained a <b>Professional Two-year Technical Degree.</b> I then joined MyDigitalSchool Paris and obtained a <b>Bachelor's Degree, through a work-study program, as an Apps Designer and Developer</b>. I am now pushing further and started a <b>Master's Degree in Web and Digital Projects Management</b> in the same school, also through a work-study program and still as an apprentice in the same company I worked for last year, <a class="link_adjuvoo" href="https://adjuvoo.com" target="_blank" rel="noopener noreferrer">Adjuvoo</a>.<br><br>Specialized in Frontend development, I however feel comfortable with Backend and am looking for exciting and ambitious projects to enhance my knowledge and acquire new skills !`
     },
     experience: {
       sectionTitle: "Explore My",
@@ -117,6 +122,11 @@ export const translations = {
         title: "CBDlisse.fr",
         description:
           "Online CBD and Vape gear created with Shopify. During an internship, I redesigned most of the visual interface and optimized UX using Liquid, HTML, CSS and JavaScript",
+      },
+      dabeatz: {
+        title: "Dabeatz",
+        description:
+          "Dummy ecommerce website created with Next.js, TypeScript and Tailwind",
       },
       demo: "Live Demo",
     },
