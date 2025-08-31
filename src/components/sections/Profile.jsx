@@ -27,7 +27,7 @@ const Profile = () => {
       id="profile"
     >
       <div className="section__pic-container">
-        <img src="/profile-pic.png" alt="Profile picture of Adrien Verwaerde" />
+        <img src="/profile-2.JPG" alt="Profile picture of Adrien Verwaerde" />
       </div>
       <div className="section__text">
         <p className="section__text__p1">{t.profile.greeting}</p>

@@ -266,6 +266,10 @@ section {
   border-radius: 2rem;
 }
 
+.section__pic-container img {
+  border-radius: 100%;
+}
+
 .section__text {
   align-self: center;
   text-align: center;
