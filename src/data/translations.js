@@ -10,7 +10,7 @@ export const translations = {
     profile: {
       greeting: "Bonjour, je suis",
       name: "Adrien Verwaerde",
-      title: "Développeur Frontend",
+      title: "Développeur Web et Mobile",
       downloadCV: "Télécharger mon CV",
       contactMe: "Me Contacter",
     },
@@ -76,7 +76,7 @@ export const translations = {
     profile: {
       greeting: "Hello, I'm",
       name: "Adrien Verwaerde",
-      title: "Frontend Developer",
+      title: "Web and Mobile Developer",
       downloadCV: "Download Resume",
       contactMe: "Contact Me",
     },

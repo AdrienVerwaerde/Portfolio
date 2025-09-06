@@ -11,6 +11,10 @@ const HamburgerNav = () => {
     setIsMenuOpen(!isMenuOpen);
   };
 
+  const closeMenu = () => {
+    setIsMenuOpen(false);
+  };
+
   return (
     <nav id="hamburger-nav">
       <div className="logo">{t.nav.welcome}</div>
