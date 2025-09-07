@@ -10,6 +10,7 @@ import Experience from './components/sections/Experience';
 import Projects from './components/sections/Projects';
 import Contact from './components/sections/Contact';
 import './App.css';
+import Arrow from './components/common/Arrow';
 
 function AppContent() {
   // Initialize scroll animations
@@ -25,6 +26,7 @@ function AppContent() {
       <Experience />
       <Projects />
       <Contact />
+      <Arrow />
     </div>
   );
 }

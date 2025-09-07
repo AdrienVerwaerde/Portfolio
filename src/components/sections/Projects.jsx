@@ -86,7 +86,7 @@ const Projects = () => {
           <p className="section__text__p1">{t.projects.sectionTitle}</p>
           <h1 className="title">{t.projects.title}</h1>
           <p className="section__text__p1">{t.projects.hoverText}</p>
-          <div className="about-containers">
+          <div className="projects-containers">
             {projects.map((project) => (
               <ProjectCard key={project.id} project={project} />
             ))}

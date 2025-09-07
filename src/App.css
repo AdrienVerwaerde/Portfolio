@@ -305,13 +305,6 @@ section {
   gap: 1rem;
 }
 
-#profile img.arrow {
-  position: absolute;
-  right: 5rem;
-  bottom: 4.6rem;
-}
-
-
 /* ICONS */
 
 .icon {
@@ -385,10 +378,18 @@ section {
 }
 
 .about-containers {
-
   gap: 2rem;
   margin-bottom: 2rem;
   margin-top: 2rem;
+}
+
+.projects-containers {
+  display: flex;
+  gap: 2rem;
+  margin-bottom: 2rem;
+  margin-top: 2rem;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 .about-details-container {
@@ -403,9 +404,32 @@ section {
 }
 
 .arrow {
-  position: absolute;
-  right: -5rem;
+  position: fixed;
+  right: 2rem;
   bottom: 2.5rem;
+  
+  height: 2.5rem;
+  cursor: pointer;
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.5s ease-in-out, visibility 0.5s ease-in-out, transform 0.3s ease;
+  z-index: 999;
+}
+
+.arrow.visible {
+  opacity: 1;
+  visibility: visible;
+  transform: rotate(180deg);
+}
+
+.arrow:hover {
+  transform: scale(1.1);
+  transform: rotate(180deg);
+}
+
+.arrow:active {
+  transform: scale(0.95);
+  transform: rotate(180deg);
 }
 
 .details-container {
@@ -616,13 +640,6 @@ footer p {
   text-align: center;
 }
 
-footer img.arrow {
-  position: absolute;
-  right: 4rem;
-  bottom: 4.8rem;
-  transform: rotate(180deg);
-}
-
 .hidden {
   opacity: 0;
   transform: translateY(30px);
@@ -646,10 +663,19 @@ footer img.arrow {
     height: 83vh;
     margin-bottom: 6rem;
   }
+
+  #contact {
+    margin-top: 10rem;
+  }
 }
 
 
 @media screen and (max-width: 1200px) {
+
+  #contact {
+    margin-top: 0;
+  }
+
   nav {
     padding: 0;
   }
@@ -680,11 +706,6 @@ footer img.arrow {
 
   }
 
-
-  .arrow {
-    display: none;
-  }
-
   section,
   .section-container {
     height: fit-content;
@@ -703,6 +724,13 @@ footer img.arrow {
   .about-containers {
     margin-top: 1rem;
   }
+
+  .projects-containers {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
 
 
 }
@@ -786,6 +814,13 @@ footer img.arrow {
     text-align: justify;
   }
 
+  .arrow {
+    display: none;
+  }
+
+  .projects-containers {
+    gap: 1rem;
+  }
 
 }
 
