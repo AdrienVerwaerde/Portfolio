@@ -8,20 +8,22 @@ const Experience = () => {
   const t = translations[language];
   const [ref, isVisible] = useIntersectionObserver();
 
-  const frontendSkills = [
+  const webSkills = [
     { name: "HTML", level: t.experience.advanced },
     { name: "CSS", level: t.experience.advanced },
     { name: "JavaScript", level: t.experience.advanced },
     { name: "React", level: t.experience.advanced },
     { name: "NextJS", level: t.experience.advanced },
-  ];
-
-  const backendSkills = [
     { name: "Node.js", level: t.experience.advanced },
     { name: "PHP", level: t.experience.advanced },
     { name: "SQL", level: t.experience.intermediate },
     { name: "Symfony", level: t.experience.basic },
     { name: "Git", level: t.experience.advanced },
+  ];
+
+  const mobileSkills = [
+    { name: "React Native", level: t.experience.advanced },
+    { name: "Flutter", level: t.experience.intermediate },
   ];
 
   const SkillArticle = ({ skill }) => (
@@ -46,17 +48,17 @@ const Experience = () => {
           <h1 className="title">{t.experience.title}</h1>
           <div className="about-containers">
             <div className="details-container">
-              <h2 className="experience-sub-title">{t.experience.frontend}</h2>
+              <h2 className="experience-sub-title">{t.experience.web}</h2>
               <div className="article-container">
-                {frontendSkills.map((skill, index) => (
+                {webSkills.map((skill, index) => (
                   <SkillArticle key={index} skill={skill} />
                 ))}
               </div>
             </div>
             <div className="details-container">
-              <h2 className="experience-sub-title">{t.experience.backend}</h2>
+              <h2 className="experience-sub-title">{t.experience.mobile}</h2>
               <div className="article-container">
-                {backendSkills.map((skill, index) => (
+                {mobileSkills.map((skill, index) => (
                   <SkillArticle key={index} skill={skill} />
                 ))}
               </div>
